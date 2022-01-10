@@ -1,0 +1,15 @@
+.icons{
+  width: 300px;
+  margin: auto;
+}
+
+.icons a:hover{
+background-color: red;
+}
+
+.copyright{
+  margin: auto;
+}
+footer{
+  background-color: #0A0A0A;
+}
