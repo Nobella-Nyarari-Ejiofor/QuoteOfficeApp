@@ -1,1 +1,36 @@
-<p>quote-form works!</p>
+<<section class="mb-5">
+  <div class="container">
+    <div class="row">
+      <div class="col md-6">
+        <img  class="img-fluid" src="./assets/image/undraw_reading_time_gvg0 (1).png" alt="person reading">
+      </div>
+
+      <div class="col-md-6">
+        <form (ngSubmit) = "onSubmit()">
+          <div class ="form-group ">
+              <label for="quote"></label>
+              <input [(ngModel)]="quotetext " name="quotetext" id ="quotetext" type="text" class="form-control" placeholder="Insert your Quote Here">
+          </div>
+          <div class="form-group">
+            <label for="author"></label>
+            <input [(ngModel)]="author" id ="author" type="text" class="form-control" placeholder="Insert the Author of the Quote">
+          </div>
+          <div class="form-group">
+            <label for="name"></label>
+            <input [(ngModel)]="name"  name= "name" id ="name"type="text" class="form-control" placeholder="Insert your Name Here">
+          </div>
+          <button  class="btn btn-dark btn-lg text mt-3">
+           Post Quote
+          </button>
+         
+        </form>
+        {{quotetext}}
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
