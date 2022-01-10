@@ -40,4 +40,4 @@ export class TimepipePipe implements PipeTransform {
   return (number > 1) ? 's' : '';
 }
 
-}
+};
