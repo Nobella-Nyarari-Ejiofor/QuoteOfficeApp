@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './component/header/header.component';
@@ -17,7 +16,6 @@ import { TimepipePipe } from './timepipe.pipe';
     AppComponent,
     HeaderComponent,
     QuoteFormComponent,
-
     QuoteItemComponent,
     FooterComponent,
     TimepipePipe,
@@ -26,7 +24,6 @@ import { TimepipePipe } from './timepipe.pipe';
   imports: [
     BrowserModule,
     AppRoutingModule,
-  
     HttpClientModule ,
     FormsModule,
     
